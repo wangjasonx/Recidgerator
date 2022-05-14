@@ -1,0 +1,20 @@
+{
+  "name": "finalexamclassproject",
+  "version": "1.0.0",
+  "description": "recidgerator",
+  "main": "recidgerator.js",
+  "scripts": {
+    "start": "node recidgerator.js"
+  },
+  "author": "Jason Wang, Matthew Lischin, Eddie Zhou",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mongodb": "^4.6.0",
+    "nodemon": "^2.0.16"
+  }
+}

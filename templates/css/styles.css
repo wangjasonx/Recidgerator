@@ -1,0 +1,45 @@
+body {
+    background-color: antiquewhite;
+    border-style: double;
+    border-color: brown;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.linkies {
+    text-align: center;
+    color: brown;
+    border-style: solid;
+    border-color: brown;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.linkies:hover {
+    color: black;
+}
+ 
+table {
+    background-color: antiquewhite;
+    border-color: brown;
+    margin: auto;
+}
+ 
+input {
+    background-color: antiquewhite;
+    border-radius: 3%;
+    border-color: brown;
+}
+ 
+#home {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 1.5em;
+}
+ 
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(90, 88, 88, 0.807)
+}

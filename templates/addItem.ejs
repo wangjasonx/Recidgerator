@@ -1,0 +1,39 @@
+<head>
+    <meta charset="utf-8" />
+    <title>Add Item</title>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+ 
+<body>
+    <h1>Recidgerator</h1>
+ 
+    <br>
+    <form id="form" action="/addItem" method="post">
+        Name: <input type="text" name="food">
+        <br><br>
+        Expiration Date: <input type="date" name="exp">
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+ 
+    <hr>
+ 
+    <a id="home" href="/">Home</a>
+ 
+</body>
+
+<script>
+    window.onsubmit = verifySubmit;
+
+    function verifySubmit() {
+        let validationMessage = "Click ok to add another item, cancel to proceed?\n";
+
+        if (window.confirm(validationMessage)) {
+            return true;
+        } else {
+            window.open("/checkFood");
+            return true;
+        }
+    }
+</script>
