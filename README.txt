@@ -5,3 +5,4 @@ that they have to look up recipes for. Accesses a food api for recipes.
 
 API link(s): https://spoonacular.com/food-api
 
+Youtube video: https://www.youtube.com/watch?v=ba7J8OsvZDk
